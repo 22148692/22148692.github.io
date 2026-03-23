@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img src="images/celtec_banner.png" alt="Celtec Banner" height="400" width="1000">
+<title>Celtec Blog</title>
+<head>
+  <meta name="description" content="Blogpage of celtec games Website">
+  <meta name="keywords" content="Gaming,Indie,Development">
+</head>
+    <link rel="stylesheet" href="celtec_styles.css">
+    <div id="page">
+
+<div id="navigation">
+<a href="index.html">Homepage</a> - 
+<a href="blog.html">Blog</a> - 
+<a href="about.html">About</a> - 
+<a href="contacts.html">Contacts</a> - 
+<a href="products.html">Products</a>
+
+<p><b><font size="5">Welcome to our Blog page!</font></b></p>
+<p>In this page you will find information on our most anticpated/newly released games so that you know
+the general story of our games, characters and more!
+</p>
+
+<p><b><font size="5">QUEST FOR ELDERGATE (2019)</font></b></p> 
+<P>The ancient seal has cracked, and the fires of the Old World have returned. <img src="images/eldergade.png" alt="eldergate" height="350" width="300" style="float: right;">
+As the massive Crimson Drake descends upon the last standing citadels, three unlikely heroes must journey to the mythical Eldergate to restore the balance before the realm is reduced to ash.</P>
+<p>Meet the Party!</p>
+<p>
+Valerius the Bold: A seasoned dwarven commander whose strength is matched only by his unwavering resolve.</p>
+<p>
+Elara of the Void: A powerful sorceress wielding a legendary spear, capable of channeling raw arcane energy against the draconic threat.</p>
+<p>
+Kaelen the Seeker: A nimble rogue and master of mystical artifacts, tasked with finding the key to the Gate before time runs out.</p>
+
+"When the sky burns, only the brave will stand."</p>
+<br>
+<br>
+<img src="images/Blackout.png" alt="Blackout" height="350" width="300" style="float: right;">
+<p><b><font size="5">   
+SHADOW OPS: BLACKOUT (2022)</font></b></p>
+<p>
+The grid has gone dark, and the city is a powder keg. When a global conspiracy triggers a total communication blackout across the world’s major metropolises, the only thing standing between order and total annihilation is a ghost unit that doesn't exist on any map.
+<p>
+The Operator
+Sergeant Elias "Viper" Thorne: A veteran of the Tier-1 elite, Thorne is a specialist in night-cycle urban warfare. Equipped with the latest prototype thermal-optic HUD and a custom-suppressed assault rifle, he is the scalpel used to cut out the heart of the insurgency under the cover of darkness.</p>
+<p>
+"We don't need the lights on to see the enemy."</p>
+<br>
+<br>
+<p><b><font size="5">ECLIPSE: GALAXY WAR (2023)</font></b></p>
+<p>The stars are fading, and the Great Void is consuming entire systems.<img src="images/ECLIPSE.png" alt="eclipse" height="350" width="300" style="float: right;">
+As the last remnants of the Galactic Alliance scramble for resources, a rogue fleet must venture into the heart of the "Eclipse"—a massive, unstable sun that holds the power to either reboot the universe or end it forever.</p>
+<p>The Crew of the Aegis-7:</p>
+<p>Captain Jaxen Thorne: A disgraced former admiral who knows the tactical layout of every star system in the quadrant.</p>
+<p>Lieutenant Nyx Valen: The galaxy’s premier pilot, capable of maneuvering a heavy cruiser through a collapsing supernova.</p>
+<p>Chief Engineer "Sprocket" Vane: A mechanical genius who keeps the Aegis-7’s experimental light-speed engines running with nothing but grit and recycled scrap.</p>
+<p>"The light is dying. It’s time to show them what we can do in the dark."</p>
+<br>
+<br>
+<p><b><font size="5">ROGUE INFERNO (2026)</font></b></p><img src="images/rouge_inferno.png" alt="inferno" height="350" width="300" style="float: right;">
+<p>The surface world is a frozen wasteland, but beneath the crust lies the Inferno, a shifting labyrinth of molten rock and ancient malice.
+As the demonic Overlord awakens to reclaim the world above, a brave gang of hunters must dive into the flames to strike at the heart of the hellscape.
+In this realm, fire isn't just an obstacle; it’s a weapon.</p>
+<p>Meet the hunters:</p>
+<p>Kaelen the Ash-Walker: A hooded rogue who has mastered the art of "flame-weaving." He wields twin obsidian daggers that ignite upon contact with demonic blood.</p>
+<p>Vorgon the Ironclad: A hulking juggernaut encased in soul-forged armor. He serves as the party’s unbreakable shield, shrugging off magma bursts that would incinerate any lesser warrior.</p>
+<p>Lyra the Ember-Witch: A sorceress who sacrificed her humanity to command the living flame. She provides devastating long-range support, turning the environment itself against the demonic horde.</p>
+<p>"The deeper you go, the hotter the price of victory."</p>
+<br>
+<br>
+<p><b><font size="5">THE ELEGRUNKTALS (Coming June 4th 2027!)</font></b></p>
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("June 4, 2027 00:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "THE GAME IS OUT!!!";
+  }
+}, 1000);
+</script>
+<img src="images/grunk.png" alt="grunk" height="350" width="300" style="float: right;">
+<p>The world of Grunkterra is out of balance. When the Great Prism shattered, the primal forces of nature were scattered across the four corners of the globe.
+Now, a band of elite, elemental-imbued brothers the Elegrunktals must unite their unique powers to reclaim the shards and prevent the chaotic Shadow realm from erasing their home.
+Whether you're smashing through stone or surging through the surf, teamwork is your only hope for survival.</p>
+<p>The Elemental Brothers</p>
+<p>Pyrus the Fierce: Born of the volcanic heartlands, his rage fuels devastating fire strikes that can melt through the toughest enemy armor.</p>
+<p>Terra the Stalwart: A literal mountain of a man, his earthen skin and immense strength make him the unbreakable frontline of the team.</p>
+<p>Glaciux the Chilled: Master of the frozen seas, he uses icy precision and tactical freezing to control the flow of the battlefield.</p>
+<p>Verde the Swift: Imbued with the energy of the winds, he is the fastest of the brothers, striking with the unpredictability of a storm.</p>
+<p>The Shadow Warrior: A meanacing villain whos only goal is to destroy Grunkterra and defeat the elegrunktals once and for all.</p>
+<p>"Four brothers. Four elements. One chance to save the world."</p>
+<br>
+</div>
+</head> 
+<body>
